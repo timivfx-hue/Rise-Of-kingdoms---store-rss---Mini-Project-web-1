@@ -1,0 +1,332 @@
+/* body css*/
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #d7d2d2;
+  color: #333;
+}
+
+/* header css */
+
+header {
+  background: #1e2a2e;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: gold;
+}
+
+/* PAGE1 : home css */
+
+#home {
+  padding: 40px;
+  background: white;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+/* Titles */
+#home h2 {
+  color: #1e2a2e;
+  margin-bottom: 10px;
+}
+
+#home h3 {
+  margin-top: 20px;
+  color: #333;
+}
+
+/* Paragraphs */
+#home p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* Image */
+#home img {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+/* List */
+#home ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+#home li {
+  margin-bottom: 8px;
+}
+
+/* ACCOUNT CSS : PAGE 2 */
+
+#account {
+  padding: 40px;
+  background: white;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+/* Title */
+#account h2 {
+  margin-bottom: 20px;
+  color: #1e2a2e;
+}
+
+/* Form */
+#account form {
+  max-width: 400px;
+  margin: auto;
+}
+
+/* Labels */
+#account label {
+  font-weight: bold;
+}
+
+/* Inputs */
+#account input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Button */
+#account button {
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  background: #1e2a2e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hover */
+#account button:hover {
+  background: gold;
+  color: black;
+}
+
+/* PAGE 3 CSS : PRODUCTS */
+
+#products {
+  padding: 40px;
+  background: white;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+/* Title */
+#products h2 {
+  color: #1e2a2e;
+  margin-bottom: 10px;
+}
+
+/* product box */
+#products > div {
+  padding: 15px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* inputs */
+#products input {
+  width: 50%;
+  padding: 6px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* horizontal line */
+#products hr {
+  margin: 15px 0;
+}
+
+/* final bill */
+#products h3:last-of-type {
+  margin-top: 20px;
+  color: #1e2a2e;
+}
+
+/* PAGE 4 CSS : PAYMENTS */
+
+#payment {
+  padding: 40px;
+  background: white;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+/* Title */
+#payment h2 {
+  color: #1e2a2e;
+  margin-bottom: 10px;
+}
+
+/* each payment box */
+#payment > div {
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* icons */
+#payment i {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #1e2a2e;
+}
+
+/* steps list */
+#payment ol {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+#payment li {
+  margin-bottom: 5px;
+}
+
+/* horizontal line */
+#payment hr {
+  margin: 15px 0;
+}
+
+/* PAGE 5 CSS : THANKS AND REATING */
+
+#page5 {
+  padding: 40px;
+  background: white;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* title */
+#page5 h2 {
+  color: #1e2a2e;
+  margin-bottom: 10px;
+}
+
+/* paragraph */
+#page5 p {
+  margin-bottom: 10px;
+  color: #444;
+}
+
+/* rating form box */
+#page5 form {
+  margin-top: 20px;
+}
+
+/* select */
+#page5 select {
+  width: 250px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* textarea */
+#page5 textarea {
+  width: 250px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+/* button */
+#page5 button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #1e2a2e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* button hover */
+#page5 button:hover {
+  background: gold;
+  color: black;
+}
+
+/* icons */
+#page5 i {
+  color: gold;
+  margin-right: 5px;
+}
+/* TABLET */
+
+@media (max-width: 900px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #home img {
+    width: 100%;
+  }
+
+  #products > div {
+    width: 100%;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+
+  header {
+    text-align: center;
+  }
+
+  nav a {
+    display: block;
+    margin: 5px 0;
+  }
+
+  #account form {
+    width: 100%;
+  }
+
+  #products input,
+  #page5 select,
+  #page5 textarea {
+    width: 100%;
+  }
+
+  h1, h2 {
+    font-size: 18px;
+  }
+}
+
+   
+
